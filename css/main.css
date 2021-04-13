@@ -1,0 +1,334 @@
+*{
+    margin : 0;
+    padding : 0;
+    line-height : 130%;
+    box-sizing : border-box;
+}
+
+.clearfix:after{
+    content : "";
+    display : table;
+    clear : both;
+}
+
+.container{
+    position : relative;
+}
+
+.home{
+    background-image:url("../img/workspace.jpg");
+	background-repeat:round;
+	background-size:100%;
+    /*padding-top : 63%;*/
+    height:100vh;
+    display:table;
+    width:100%;
+    position:relative;
+}
+
+.tableRow{
+    display : table-row;
+    height : 100%;
+}
+
+.nav{
+    position : absolute;
+    z-index: 2;
+    width : 100%;
+    margin : 0 auto;
+    left : 50%;
+    transform : translateX(-50%);
+    top : 55px;
+}
+
+.logo{
+    width : 45%;
+    float : left;
+}
+
+.menu{
+    width : 55%;
+    float : right;
+}
+
+.menuContent ul{
+    list-style-type: none;
+}
+
+.menuContent ul li{
+    float:left;
+}
+
+.menuContent ul li a{
+    display : block;
+    padding : 0 10px;
+    text-align:right;
+	text-decoration:none;
+    font-weight: bold;
+    color:black;
+}
+
+p{
+    margin : 25px 0;
+    font-size : 1.2em;
+    color : #828181;
+}
+
+.intro{
+    display: table-cell;
+    vertical-align: middle;
+    height : 100%;
+}
+
+.introContent{
+    float : right;
+    width:40%;
+    padding : 0 5% 0 0;
+}
+
+.menu ul li .selected{
+    color :#3ad1f0;
+}
+
+
+.btn{
+    background-color: #3ad1f0;
+    border: 0;
+    border-radius: 4px;
+    padding: 16px 26px;
+    color:cornsilk;
+    font-weight: bold;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.tab-content {
+    z-index: 0;
+    background-color: white;
+    position: absolute;
+    top:30px;
+    width: 100%;
+}
+.tab-content:first-child {
+    z-index: 1;
+}
+.tab-content:target {
+    z-index: 2;
+}
+.testmonial{
+    text-align: center;
+    color:white;
+    background-color: #3ad1f0;
+    overflow : auto;
+}
+
+.row{
+    margin : 7%;
+}
+
+.center{
+    text-align: center;
+}
+/*.section{
+    width : 90%;
+    margin : 0 auto;
+    padding : 8%;
+    text-align: center;
+}*/
+
+.aboutUSContent{
+    width:50%;
+    margin:0 auto;
+}
+
+.ImgPalatteColumn{
+    width : 25%;
+    float : left;
+}
+
+.ImgPalatte{
+    background-color:#f5f2ed;
+    overflow: auto;
+}
+
+.ImgPalatteMember{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.testimonialContent{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.projectContent{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.project{
+    background-color:#f5f2ed;
+    overflow: auto;
+}
+
+.textColumn{
+    width: 48%;
+    float: left;
+}
+
+.textField{
+    width:100%;
+    border:0px;
+    outline:0;
+    padding: 16px;
+    margin-bottom:30px;
+}
+
+.textField::placeholder{
+    color: #818281;
+    font-size: 1.2em;
+}
+
+.textArea{
+    resize: none;
+    height: auto;
+}
+
+.contactUSColumn{
+    width:20%;
+    float:left;
+}
+
+.footerMenuContent{
+    float : left;
+    width : 50%;
+}
+
+.footerMenuContent ul{
+    list-style-type: none;
+}
+
+.footerMenuContent ul li{
+    float:left;
+    width:100%;
+}
+
+.footerMenuContent ul li a{
+    display : block;
+    padding : 0 10px;
+	text-decoration:none;
+    font-size: 1.2em;
+    color : #c6c7c5;
+}
+
+.WorkImgPaletteColumn{
+    float:left;
+    width:22%;
+}
+
+.WorkImgPaletteColumn + .WorkImgPaletteColumn{
+    margin-left : 4%
+}
+
+.WorkImgPalette{
+    overflow: auto;
+    background-color: #f5f2ed;
+}
+
+.WorkImgPaletteColumn i{
+    font-weight: normal;
+}
+
+.WorkDetailsColumn{
+    width:22%;
+    float:left;
+}
+
+.WorkDetailsColumn{
+    float:left;
+    width:22%;
+}
+
+.WorkDetailsColumn + .WorkDetailsColumn {
+    margin-left : 4%;
+}
+
+.WorkDetails{
+    background-color: #3ad1f0; 
+    overflow: auto;  
+}
+
+.WorkDetailsIcon{
+    width:30;
+    float:left;
+}
+
+.WorlDetailContent{
+    width:65%;
+    float:left;
+    margin-left:5%;
+}
+
+.MiniImageColumn{
+    width:16%;
+    float:left;
+}
+
+.MiniImageColumn + .MiniImageColumn{
+    margin-left : 5%;
+}
+
+.MiniImageColumn img{
+    width : 100%;
+}
+
+.Skills{
+    background-image: url(../img/skills.jpg);
+    background-repeat: round;
+    background-size: 100%;
+    height: 90vh;
+    overflow: auto;
+}
+
+.skillsColumn{
+    width:50%;
+    float:left;
+}
+
+.Professionalskills{
+    background-color: #f5f2ed;
+    width:50%;
+    height: 90vh;
+    position:relative;
+}
+
+.progressOuter{
+    height:3px;
+    background-color: grey;
+}
+
+.progressInner{
+    height : 3px;
+    background-color: #3ad1f0;
+}
+
+.Professionalskills h4{
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.skillsInner{
+    width:70%;
+    margin:0 auto;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.percentage{
+    margin: 25px;
+}
