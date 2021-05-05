@@ -1,0 +1,222 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: "Open Sans", sans-serif;
+    line-height : 130%;
+    box-sizing : border-box;
+}
+
+.column-left{
+    float: left;
+}
+
+.column-right,.menuContent ul li{
+    float : right;
+}
+
+.col-1n{
+    width:100%;
+}
+
+.col-2n{
+    width:50%;
+}
+
+.col-3n{
+    width:33.33%;
+}
+
+.col-3nr{
+    width:66.67%
+}
+
+.col-4n{
+    width:25%;
+}
+
+.col-4nr{
+    width:75%;
+}
+
+.col-5n{
+    width: 20%;
+}
+
+.col-5nr{
+    width: 80%;
+}
+
+.row{
+    margin : 7%;
+    max-width: 1600px;
+}
+
+.clearfix:after{
+    content : "";
+    display : table;
+    clear : both;
+}
+
+.nav{
+    position : absolute;
+    z-index: 2;
+    width : 100%;
+    margin : 0 auto;
+    left : 50%;
+    transform : translateX(-50%);
+    top : 55px;
+}
+
+.container{
+    position : relative;
+}
+
+.home{
+    background-image:url("../img/workspace.jpg");
+	background-repeat:round;
+	background-size:100%;
+    /*padding-top : 63%;*/
+    height:100vh;
+    width:100%;
+    position:relative;
+}
+
+.logo{
+    width: 30%;
+}
+
+.menu{
+    width: 70%;
+}
+
+.menuContent ul{
+    list-style-type: none;
+}
+
+.menuContent ul li a{
+    display : block;
+    padding : 0 10px;
+    text-align:right;
+	text-decoration:none;
+    font-weight: bold;
+    color:black;
+}
+
+.table{
+    display: table;
+}
+
+.table-cell{
+    display: table-cell;
+}
+
+.v-middle{
+    vertical-align: middle;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.block-center{
+    margin: 0 auto;
+}
+
+
+.progressOuter{
+    height:3px;
+    background-color: grey;
+}
+
+.progressInner{
+    height : 3px;
+    background-color: #3ad1f0;
+}
+
+.absolute-center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.progressCaption{
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.percentage{
+    margin: 25px;
+}
+
+.btn{
+    background-color: #3ad1f0;
+    border: 0;
+    border-radius: 4px;
+    padding: 16px 26px;
+    color:cornsilk;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.p-mg-xs{
+    margin : 25px 0;
+    font-size : 1.2em;
+    color : #828181;
+}
+
+.ImgPalatteMember{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.ImgPalatte{
+    background-color:#f5f2ed;
+    overflow: auto;
+}
+
+
+.Skills{
+    background-image: url(../img/skills.jpg);
+    background-repeat: round;
+    background-size: 100%;
+    height: 90vh;
+    overflow: auto;
+}
+
+.column-left.col-2n ul{
+    list-style-type: none;
+}
+
+.column-left.col-2n ul li{
+    float:left;
+    width:100%;
+}
+
+.column-left.col-2n ul li a{
+    display : block;
+    padding : 0 10px;
+	text-decoration:none;
+    font-size: 1.2em;
+    color : #c6c7c5;
+}
+
+.textField{
+    width:100%;
+    border:0px;
+    outline:0;
+    padding: 16px;
+    margin-bottom:30px;
+}
+
+.textField::placeholder{
+    color: #818281;
+    font-size: 1.2em;
+}
+
+.textArea{
+    resize: none;
+    height: auto;
+}
