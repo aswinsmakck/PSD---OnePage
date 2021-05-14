@@ -46,7 +46,7 @@
     width: 80%;
 }
 
-.row{
+.row-wrap{
     max-width: 1160px;
     margin:0 auto
 }
@@ -166,8 +166,14 @@
 }
 
 .p-mg-xs{
-    padding : 25px 0;
+    margin-top : 25px;
+    margin-bottom : 25px;
     font-size : 1.2em;
+    color : #828181;
+}
+
+.p-mg-ls{
+    margin-top : 8px;
     color : #828181;
 }
 
@@ -184,7 +190,7 @@
 
 
 .Skills{
-    background-image: url(../img/resize.jpg);
+    background-image: url(../img/skills1.jpg);
     background-repeat: round;
     background-size: 100%;
     padding-top: 40%;
@@ -228,4 +234,8 @@
 
 .text-right{
     text-align : right;
+}
+
+.row + .row{
+    margin-top:50px;
 }
